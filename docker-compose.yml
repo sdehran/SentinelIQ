@@ -1,6 +1,6 @@
 services:
   sentineliq:
-    build: .
+    image: sentineliq-app
     container_name: sentineliq-app
     restart: unless-stopped
     ports:
