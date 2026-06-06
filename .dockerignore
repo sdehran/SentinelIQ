@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# Python bytecode
+__pycache__
+*.pyc
+*.pyo
+
+# IDE / Editor
+.kiro
+.vscode
+.idea
+*.swp
+*.swo
+
+# Caches
+.pytest_cache
+data/.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml

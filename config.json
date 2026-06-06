@@ -1,0 +1,14 @@
+{
+  "critical_threshold": 85,
+  "high_threshold": 70,
+  "med_threshold": 40,
+  "rag_top_k": 4,
+  "retry_attempts": 4,
+  "fallback_mode": true,
+  "batch_schedule_hour": 18,
+  "llm_model": "gemini-2.5-flash",
+  "manager_email": "s.dehran20@gmail.com",
+  "critical_recipients": "s.dehran20@gmail.com",
+  "report_recipients": "s.dehran20@gmail.com",
+  "alert_threshold": 50
+}
